@@ -35,11 +35,19 @@ A utility for fixing timekeeper names in the LEDES files output by MyCase from F
    pip install -r requirements.txt
    ```
 
+5. **Install Inno Setup Compiler:**
+
+   Download and install the [Inno Setup Compiler](https://jrsoftware.org/isinfo.php), which is required to build the installer.
+
 5. **Build the executable and installer:**
 
    ```bash
    python build_release.py
    ```
+
+6. **Windows Installer:**
+
+The Windows installer will be in release folder. 
 
 ## Usage
 

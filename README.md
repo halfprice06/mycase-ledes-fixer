@@ -1,6 +1,6 @@
 # MyCase-Ledes-Fixer
 
-A utility for fixing timekeeper names in the LEDES files output by MyCase from First Name Middile Initial Lastname to Lastname, Firstname Middle Initial.
+A utility for fixing timekeeper names in the LEDES files output by MyCase from Firstname Middle Initial Lastname to Lastname, Firstname Middle Initial.
 
 ## Installation
 
@@ -22,20 +22,24 @@ A utility for fixing timekeeper names in the LEDES files output by MyCase from F
    cd mycase_ledes_fixer
    ```
 
-3. **Install the required dependencies:**
+3. **Create and activate a virtual environment:**
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+4. **Install the required dependencies:**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Build the executable and installer:**
+5. **Build the executable and installer:**
 
    ```bash
    python build_release.py
    ```
-
-5. **Locate the build outputs:**
-   - The executable will be in the `dist` folder.
 
 ## Usage
 

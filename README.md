@@ -4,8 +4,7 @@ A utility for correcting the TIMEKEEPER_NAME field in the LEDES 1998B txt file o
 
 ## Installation
 
-1. Download the latest `MyCase-Ledes-Fixer_Setup.exe` from the [releases]
-(release).
+1. Download the latest `MyCase-Ledes-Fixer_Setup.exe` from the [releases](release).
 2. Run the installer and follow the prompts.
 3. The application will be installed and available from the Start Menu.
 

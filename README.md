@@ -1,6 +1,6 @@
 # MyCase-Ledes-Fixer
 
-A utility for transforming timekeeper names in LEDES files.
+A utility for fixing timekeeper names in the LEDES files output by MyCase from First Name Middile Initial Lastname to Lastname, Firstname Middle Initial.
 
 ## Installation
 

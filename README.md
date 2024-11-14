@@ -4,7 +4,7 @@ A utility for fixing timekeeper names in the LEDES files output by MyCase from F
 
 ## Installation
 
-1. Download the latest `MyCase-Ledes-Fixer_Setup.exe` from the [releases](link-to-releases).
+1. Download the latest `MyCase-Ledes-Fixer_Setup.exe` from the [releases](release).
 2. Run the installer and follow the prompts.
 3. The application will be installed and available from the Start Menu.
 

@@ -36,8 +36,6 @@ A utility for transforming timekeeper names in LEDES files.
 
 5. **Locate the build outputs:**
    - The executable will be in the `dist` folder.
-   - The Windows installer will be in the `installer` folder.
-   - A packaged release version will be available in the `release` folder.
 
 ## Usage
 

@@ -1,12 +1,21 @@
-# MyCase-Ledes-Fixer
+# MyCase LEDES Fixer
 
-A utility for fixing timekeeper names in the LEDES files output by MyCase from Firstname Middle Initial Lastname to Lastname, Firstname Middle Initial.
+A utility for correcting the TIMEKEEPER_NAME field in the LEDES 1998B txt file outputs from MyCase used to upload to clients that receive LEDES billing invoices electronically, converting names from "Firstname Middle Initial Lastname" to "Lastname, Firstname Middle Initial".
 
 ## Installation
 
-1. Download the latest `MyCase-Ledes-Fixer_Setup.exe` from the [releases](release).
+1. Download the latest `MyCase-Ledes-Fixer_Setup.exe` from the [releases]
+(release).
 2. Run the installer and follow the prompts.
 3. The application will be installed and available from the Start Menu.
+
+When running the installer, you may see a Windows SmartScreen warning that says "Windows protected your PC". This is normal for applications that aren't digitally signed with a paid certificate. The application is safe to run, and you can proceed by:
+
+**Why does this warning appear?**
+- Windows SmartScreen shows this warning for any application that isn't signed with a paid certificate
+- This is an open-source tool with code publicly available for review
+- The warning is not indicating the presence of malware - it simply means Windows doesn't recognize the publisher
+- You can verify the source code yourself at [GitHub repository link]
 
 ### Building from Source
 
@@ -54,8 +63,5 @@ The Windows installer will be in release folder.
 1. Launch "MyCase LEDES Fixer" from the Start Menu
 2. Drag and drop LEDES files or use the "Add Files" button
 3. Choose whether to overwrite original files
-4. Click "Process Files" to transform the timekeeper names
+4. Click "Process Files" to transform the timekeeper names into the standard format. 
 
-## Support
-
-For support, please create an issue in the GitHub repository or contact the developer. 

@@ -1,0 +1,14 @@
+# Build directories
+build/
+dist/
+installer/
+release/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Environment
+venv/
+.env 
